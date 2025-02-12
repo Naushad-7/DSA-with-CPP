@@ -58,38 +58,37 @@ int main()
 
     // while (i <= n)
     // {
-        // char ch = 'A' + i - 1; // Here after one itration when I = 2; ch will be remain same as declear and value will be change according to the value of " i " after the itration ........
-        // int j = 1;
-        // while (j <= i)
-        // {
-        //     char ch = 'A' + i + j - 2;   // This formula also do the same thing just we dont have to increment the value of the char... after printing....
-        //     cout << ch << " ";
-        //     // ch++;
-        //     // cout<<i<<" ";
-        //     j++;
-        // }
-        // cout << endl;
-        // i++;
+    // char ch = 'A' + i - 1; // Here after one itration when I = 2; ch will be remain same as declear and value will be change according to the value of " i " after the itration ........
+    // int j = 1;
+    // while (j <= i)
+    // {
+    //     char ch = 'A' + i + j - 2;   // This formula also do the same thing just we dont have to increment the value of the char... after printing....
+    //     cout << ch << " ";
+    //     // ch++;
+    //     // cout<<i<<" ";
+    //     j++;
+    // }
+    // cout << endl;
+    // i++;
     // }
 
-//  PATTERN................
-//  D
-//  C D
-//  B C D
-//  A B C D
+    //  PATTERN................
+    //  D
+    //  C D
+    //  B C D
+    //  A B C D
 
-    while(i<=n)
+    while (i <= n)
     {
-        int j=1;
-            char ch = 'A' + n - i;
-        while(j<=i)
+        int j = 1;
+        char ch = 'A' + n - i;
+        while (j <= i)
         {
-            cout<<ch<<" ";
+            cout << ch << " ";
             ch++;
             j++;
         }
-        cout<<endl;
+        cout << endl;
         i++;
     }
-    
 }
