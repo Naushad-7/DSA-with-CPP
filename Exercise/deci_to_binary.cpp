@@ -13,7 +13,7 @@ int main()
     {
         int bits = n&1;
 
-        ans += (bits *pow(10, i));
+        ans += (bits * pow(10, i));
         n = n >> 1;
         i++;
     }
